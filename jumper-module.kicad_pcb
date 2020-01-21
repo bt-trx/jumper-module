@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 0.5)
     (user_trace_width 1)
     (trace_clearance 0.2)
@@ -182,11 +182,6 @@
       (net 1 "Net-(J1-Pad1)"))
     (pad 4 thru_hole oval (at 2.54 2.54) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 "Net-(J1-Pad1)"))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x02_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 5E273A40) (tstamp 5E279761)
@@ -225,9 +220,9 @@
     (pad 8 thru_hole oval (at 0 17.78 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 17 /8))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
+      (offset (xyz 0 0 -2))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 -180 0))
     )
   )
 
@@ -266,11 +261,6 @@
       (net 11 /2))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 10 /1))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 5E2739D6) (tstamp 5E27977C)
@@ -308,11 +298,6 @@
       (net 3 /PTT))
     (pad 8 thru_hole oval (at 0 17.78 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 2 /PTT_GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical (layer F.Cu) (tedit 5E273993) (tstamp 5E279746)
@@ -351,9 +336,9 @@
     (pad 1 thru_hole rect (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 9 /V_IN))
     (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
+      (offset (xyz 0 0 -2))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 -180 0))
     )
   )
 
