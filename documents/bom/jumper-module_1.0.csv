@@ -1,0 +1,19 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Mouser-Best. Nr
+1,"Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_02x02_Counter_Clockwise,J1,,PinHeader_2x02_P2.54mm_Vertical,1,~,-
+2,"Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x08,J9 J10 J91 J101,Conn_01x08,PinHeader_1x08_P2.54mm_Vertical,4,~,649-68000-408HLF
+3,"Solder Jumper, 2-pole, open",SolderJumper_2_Open,JP1 JP2 JP3 JP4 JP5 JP6,SolderJumper_2_Open,SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm,6,~,-
+
+
+
+
+
+Component Groups:,3
+Component Count:,11
+Fitted Components:,11
+Number of PCBs:,1
+Total components:,11
+Schematic Version:,1.0
+Schematic Date:,2020-01-17
+BoM Date:,Wed 22 Jan 2020 10:19:41 PM CET
+Schematic Source:,/home/andz/workspace/git/bt-trx/jumper-module/jumper-module.sch
+KiCad Version:,Eeschema 5.1.5+dfsg1-2

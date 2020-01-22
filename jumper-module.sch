@@ -21,6 +21,7 @@ F 0 "J91" H 1700 2100 50  0000 C CNN
 F 1 "Conn_01x08" H 1618 2126 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1700 1700 50  0001 C CNN
 F 3 "~" H 1700 1700 50  0001 C CNN
+F 4 "-" H 1700 1700 50  0001 C CNN "Mouser-Best. Nr"
 	1    1700 1700
 	1    0    0    -1  
 $EndComp
@@ -36,6 +37,7 @@ F 0 "J9" H 950 2100 50  0000 C CNN
 F 1 "Conn_01x08" H 868 2126 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 950 1700 50  0001 C CNN
 F 3 "~" H 950 1700 50  0001 C CNN
+F 4 "649-68000-408HLF" H 950 1700 50  0001 C CNN "Mouser-Best. Nr"
 	1    950  1700
 	-1   0    0    -1  
 $EndComp
@@ -57,6 +59,7 @@ F 0 "J10" H 3750 2100 50  0000 C CNN
 F 1 "Conn_01x08" H 3668 2126 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3750 1700 50  0001 C CNN
 F 3 "~" H 3750 1700 50  0001 C CNN
+F 4 "649-68000-408HLF" H 3750 1700 50  0001 C CNN "Mouser-Best. Nr"
 	1    3750 1700
 	1    0    0    -1  
 $EndComp
@@ -68,6 +71,7 @@ F 0 "J101" H 3100 2100 50  0000 C CNN
 F 1 "Conn_01x08" H 3018 2126 50  0001 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3100 1700 50  0001 C CNN
 F 3 "~" H 3100 1700 50  0001 C CNN
+F 4 "-" H 3100 1700 50  0001 C CNN "Mouser-Best. Nr"
 	1    3100 1700
 	-1   0    0    -1  
 $EndComp
@@ -79,6 +83,7 @@ F 0 "JP1" H 2700 1450 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 2500 1514 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2500 1400 50  0001 C CNN
 F 3 "~" H 2500 1400 50  0001 C CNN
+F 4 "-" H 2500 1400 50  0001 C CNN "Mouser-Best. Nr"
 	1    2500 1400
 	1    0    0    -1  
 $EndComp
@@ -202,6 +207,7 @@ F 0 "JP2" H 2700 1550 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 2500 1614 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2500 1500 50  0001 C CNN
 F 3 "~" H 2500 1500 50  0001 C CNN
+F 4 "-" H 2500 1500 50  0001 C CNN "Mouser-Best. Nr"
 	1    2500 1500
 	1    0    0    -1  
 $EndComp
@@ -213,6 +219,7 @@ F 0 "JP3" H 2700 1650 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 2500 1714 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2500 1600 50  0001 C CNN
 F 3 "~" H 2500 1600 50  0001 C CNN
+F 4 "-" H 2500 1600 50  0001 C CNN "Mouser-Best. Nr"
 	1    2500 1600
 	1    0    0    -1  
 $EndComp
@@ -224,6 +231,7 @@ F 0 "JP4" H 2700 1750 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 2500 1814 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2500 1700 50  0001 C CNN
 F 3 "~" H 2500 1700 50  0001 C CNN
+F 4 "-" H 2500 1700 50  0001 C CNN "Mouser-Best. Nr"
 	1    2500 1700
 	1    0    0    -1  
 $EndComp
@@ -235,6 +243,7 @@ F 0 "JP5" H 2700 1850 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 2500 1914 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2500 1800 50  0001 C CNN
 F 3 "~" H 2500 1800 50  0001 C CNN
+F 4 "-" H 2500 1800 50  0001 C CNN "Mouser-Best. Nr"
 	1    2500 1800
 	1    0    0    -1  
 $EndComp
@@ -246,6 +255,7 @@ F 0 "JP6" H 2700 1950 50  0000 C CNN
 F 1 "SolderJumper_2_Open" H 2500 2014 50  0001 C CNN
 F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2500 1900 50  0001 C CNN
 F 3 "~" H 2500 1900 50  0001 C CNN
+F 4 "-" H 2500 1900 50  0001 C CNN "Mouser-Best. Nr"
 	1    2500 1900
 	1    0    0    -1  
 $EndComp
@@ -257,6 +267,7 @@ F 0 "J1" H 2500 2350 50  0000 C CNN
 F 1 " " H 2500 2376 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 2450 2250 50  0001 C CNN
 F 3 "~" H 2450 2250 50  0001 C CNN
+F 4 "-" H 2450 2250 50  0001 C CNN "Mouser-Best. Nr"
 	1    2450 2250
 	1    0    0    -1  
 $EndComp
