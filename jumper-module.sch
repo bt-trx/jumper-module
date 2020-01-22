@@ -4,7 +4,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "bt-trx Jumper Module"
+Title "Generic Jumper Module"
 Date "2020-01-17"
 Rev "1.0"
 Comp "bt-trx.com"
