@@ -283,4 +283,113 @@ Connection ~ 2250 2350
 Wire Wire Line
 	2750 2450 2750 2350
 Connection ~ 2750 2350
+Text Notes 6550 1250 0    50   ~ 0
+Transceiver RJ-45
+Text Notes 4900 1250 2    50   ~ 0
+bt-trx
+$Comp
+L Connector_Generic:Conn_01x08 JKH9
+U 1 1 5E2D8D3B
+P 4450 1700
+F 0 "JKH9" H 4450 2100 50  0000 C CNN
+F 1 "Conn_01x08" H 4368 2126 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4450 1700 50  0001 C CNN
+F 3 "~" H 4450 1700 50  0001 C CNN
+F 4 "649-68000-408HLF" H 4450 1700 50  0001 C CNN "Mouser-Best. Nr"
+	1    4450 1700
+	-1   0    0    -1  
+$EndComp
+Wire Notes Line
+	4250 900  4250 2500
+Wire Notes Line
+	4250 2500 7550 2500
+Wire Notes Line
+	7550 2500 7550 900 
+Wire Notes Line
+	7550 900  4250 900 
+Text Notes 4250 850  0    100  ~ 20
+Kenwood Handheld Jumper Module
+$Comp
+L Connector_Generic:Conn_01x08 JKH10
+U 1 1 5E2D8D47
+P 7250 1700
+F 0 "JKH10" H 7250 2100 50  0000 C CNN
+F 1 "Conn_01x08" H 7168 2126 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 7250 1700 50  0001 C CNN
+F 3 "~" H 7250 1700 50  0001 C CNN
+F 4 "649-68000-408HLF" H 7250 1700 50  0001 C CNN "Mouser-Best. Nr"
+	1    7250 1700
+	1    0    0    -1  
+$EndComp
+Text Label 5000 1400 0    50   ~ 0
+V_IN_KH
+Text Label 5000 1500 0    50   ~ 0
+PWR_GND_KH
+Text Label 5000 1700 0    50   ~ 0
+MIC_KH
+Text Label 5000 1800 0    50   ~ 0
+TRX_GND_KH
+Text Label 5000 1900 0    50   ~ 0
+SPK_KH
+Text Label 5000 2000 0    50   ~ 0
+PTT_KH
+Text Label 5000 1600 0    50   ~ 0
+TRX_GND_KH
+Wire Wire Line
+	4650 1400 5000 1400
+Wire Wire Line
+	4650 1500 5000 1500
+Wire Wire Line
+	4650 1600 5000 1600
+Wire Wire Line
+	4650 1700 5000 1700
+Wire Wire Line
+	4650 1800 5000 1800
+Wire Wire Line
+	4650 1900 5000 1900
+Wire Wire Line
+	4650 2000 5000 2000
+Wire Wire Line
+	4650 2100 5000 2100
+Wire Wire Line
+	7050 1400 6750 1400
+Wire Wire Line
+	7050 1500 6750 1500
+Wire Wire Line
+	7050 1600 6750 1600
+Wire Wire Line
+	7050 1700 6750 1700
+Wire Wire Line
+	7050 1800 6750 1800
+Wire Wire Line
+	7050 1900 6750 1900
+Wire Wire Line
+	7050 2000 6750 2000
+Wire Wire Line
+	7050 2100 6750 2100
+Text Label 6750 1400 2    50   ~ 0
+V_IN_KH
+Text Label 6750 1500 2    50   ~ 0
+PWR_GND_KH
+Text Label 6750 1700 2    50   ~ 0
+MIC_KH
+Text Label 6750 1900 2    50   ~ 0
+SPK_KH
+Text Label 6750 1600 2    50   ~ 0
+TRX_GND_KH
+Text Label 5000 2100 0    50   ~ 0
+TRX_GND_KH
+Text Label 6750 1800 2    50   ~ 0
+PTT_KH
+$Comp
+L Connector_Generic:Conn_01x02 JKH101
+U 1 1 5E334DDE
+P 6550 2100
+F 0 "JKH101" H 6550 2250 50  0000 C CNN
+F 1 "Conn_01x02" H 6550 2250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6550 2100 50  0001 C CNN
+F 3 "~" H 6550 2100 50  0001 C CNN
+	1    6550 2100
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
